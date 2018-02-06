@@ -99,11 +99,11 @@ extension UITableViewCell {
     }
 }
 
-extension UIStackView {
-    override var subviewsSkeletonables: [UIView] {
-        return arrangedSubviews.filter { $0.isSkeletonable }
-    }
-}
+//extension UIStackView {
+//    override var subviewsSkeletonables: [UIView] {
+//        return arrangedSubviews.filter { $0.isSkeletonable }
+//    }
+//}
 
 extension UIView {
     
